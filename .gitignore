@@ -1,0 +1,28 @@
+# Ignore Visual Studio and .NET specific files
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Node.js dependencies (VERY IMPORTANT)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore environment files (for security)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore build output folders
+dist/
+build/
+
+# Ignore IDE specific folders
+.idea/
+.vscode/
